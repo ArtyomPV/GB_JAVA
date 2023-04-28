@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GB_JAVA.iml" filepath="$PROJECT_DIR$/.idea/GB_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/HW04/HW04.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/HW04/HW04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/homeworks.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/homeworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture03/lecture03.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture03/lecture03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture04/lecture04.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture04/lecture04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture05/lecture05.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture05/lecture05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lectures.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lectures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/oop_java.iml" filepath="$PROJECT_DIR$/oop_java/oop_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar01/seminar01.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar01/seminar01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar02/seminar02.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar02/seminar02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar03/seminar03.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar03/seminar03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar04/seminar04.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar04/seminar04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar05/seminar05.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar05/seminar05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminars.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminars.iml" />
+    </modules>
+  </component>
+</project>
