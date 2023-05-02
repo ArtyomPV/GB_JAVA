@@ -23,7 +23,7 @@ public class Model {
 
     public Contact currentContact() {
         if (currentIndex >= 0) {
-            return currentBook.getCotact(currentIndex);
+            return currentBook.getContact(currentIndex);
         } else {
             // ???...
             return null;
@@ -53,7 +53,7 @@ public class Model {
 
         try (FileWriter writer = new FileWriter(path, false)) {
             for (int i = 0; i < currentBook.count(); i++) {
-                Contact contact = currentBook.getCotact(i);
+                Contact contact = currentBook.getContact(i);
                 writer.append(String.format("%s\n", contact.firstName));
                 writer.append(String.format("%s\n", contact.lastName));
                 writer.append(String.format("%s\n", contact.description));
@@ -76,4 +76,11 @@ public class Model {
     public void setCurrentIndex(int value) {
         this.currentIndex = value;
     }
+
+//    public void remove(int id) {
+//
+//       Contact contact =  currentBook.getContact(id);
+//       contact.
+//
+//    }
 }

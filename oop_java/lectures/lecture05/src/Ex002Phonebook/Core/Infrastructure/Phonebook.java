@@ -24,7 +24,7 @@ public class Phonebook {
     }
 
     // read
-    public Contact getCotact(int index) {
+    public Contact getContact(int index) {
         return contains(index) ? contacts.get(index) : null;
     }
 
@@ -57,4 +57,8 @@ public class Phonebook {
         return contacts.size();
     }
 
+    public void set(int index, Contact contact) {
+//        getContact(index)
+        contacts.set(index, contact);
+    }
 }

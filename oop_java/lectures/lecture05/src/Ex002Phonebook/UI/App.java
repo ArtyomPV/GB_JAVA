@@ -16,7 +16,10 @@ public class App {
         try (Scanner in = new Scanner(System.in)) {
 
             while (true) {
-                System.out.println(" 1 - prev  2 - next");
+                System.out.println("""
+                                1 - prev            2 - next            3 - add contact
+                                4 - update contact  5 - remove contact
+                                """ );
                 String key = in.next();
                 System.out.print("\033[H\033[J");
                 switch (key) {
@@ -26,7 +29,15 @@ public class App {
                     case "2":
                         presenter.next();
                         break;
-
+                    case "3":
+                        presenter.add();
+                        break;
+                    case "4":
+                        presenter.update();
+                        break;
+                    case "5":
+                        presenter.remove();
+                        break;
                     default:
                         System.out.println("Такой команды нет");
                         break;
