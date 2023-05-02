@@ -58,13 +58,16 @@ public class ViewUser {
     private User inputUser(){
         String firstName;
         String lastName;
+        String phone;
         do {
             firstName = prompt("Имя: ");
         } while(validate.checkFirstName(firstName));
         do {
             lastName = prompt("Фамилия: ");
         } while( validate.checkLastName(lastName));
-        String phone = prompt("Номер телефона: ");
+        do {
+            phone = prompt("Номер телефона: ");
+        } while (validate.checkPhoneNumber(phone));
         return  new User(firstName, lastName, phone);
     }
     private String readUser() {
