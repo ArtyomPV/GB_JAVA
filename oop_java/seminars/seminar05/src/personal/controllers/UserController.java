@@ -33,6 +33,14 @@ public class UserController {
 
     public void updateUser(User updatedUser) {
         repository.updateUser(updatedUser);
-
     }
+
+
+    public void deleteUser(String userId) {
+        repository.deleteUser(userId);
+    }
+
+//    public void deleteUser(String userId){
+//        repository.deleteUser(deletedUser);
+//    }
 }
