@@ -27,13 +27,17 @@ public class Main {
         //endregion
 
 
-        String path = System.getProperty("user.dir");
-        String pathReadFile = path.concat("\\ru.geekbrains.javaAPI\\homeWorksAPI\\homeWorkAPI_02\\src\\task3.txt");
-        String[] data;
-        data = Task03.readFile(pathReadFile);
+        //region Решение третьей задачи
+//        String path = System.getProperty("user.dir");
+//        String pathReadFile = path.concat("\\ru.geekbrains.javaAPI\\homeWorksAPI\\homeWorkAPI_02\\src\\task3.txt");
+//        String[] data;
+//        data = Task03.readFile(pathReadFile);
+//
+//        for (int i = 0; i < data.length; i++) {
+//            System.out.println(Task03.ParsingText(data[i]));
+//        }
+        //endregion
 
-        for (int i = 0; i < data.length; i++) {
-            System.out.println(Task03.ParsingText(data[i]));
-        }
+        Task4.run();
     }
 }
