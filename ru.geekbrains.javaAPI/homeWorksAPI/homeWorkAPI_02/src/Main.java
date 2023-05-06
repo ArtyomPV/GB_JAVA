@@ -18,5 +18,10 @@ public class Main {
 //        Task1.saveText(sb.toString(), pathFileToSave);
         //endregion
 
+        int[] array = {1, 5, 6, 3, 7, 2};
+        Task2.printArray(array);
+        int[] sortedArray = Task2.bubbleSort(array);
+        System.out.println();
+        Task2.printArray(sortedArray);
     }
 }
