@@ -1,14 +1,14 @@
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 5 с индексом 1 на элемент 3 с индексом 3 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 3 с индексом 1 на элемент 2 с индексом 5 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 6 с индексом 2 на элемент 5 с индексом 3 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 5 с индексом 2 на элемент 3 с индексом 5 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 6 с индексом 3 на элемент 5 с индексом 5 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 INFO: Замена элемента 7 с индексом 4 на элемент 6 с индексом 5 
-мая 06, 2023 6:50:46 PM Task2 bubbleSort
+мая 06, 2023 8:32:50 PM Task2 bubbleSort
 WARNING: Сортировка завершена
