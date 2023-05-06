@@ -18,10 +18,22 @@ public class Main {
 //        Task1.saveText(sb.toString(), pathFileToSave);
         //endregion
 
-        int[] array = {1, 5, 6, 3, 7, 2};
-        Task2.printArray(array);
-        int[] sortedArray = Task2.bubbleSort(array);
-        System.out.println();
-        Task2.printArray(sortedArray);
+        //region Решение второй задачи
+//        int[] array = {1, 5, 6, 3, 7, 2};
+//        Task2.printArray(array);
+//        int[] sortedArray = Task2.bubbleSort(array);
+//        System.out.println();
+//        Task2.printArray(sortedArray);
+        //endregion
+
+
+        String path = System.getProperty("user.dir");
+        String pathReadFile = path.concat("\\ru.geekbrains.javaAPI\\homeWorksAPI\\homeWorkAPI_02\\src\\task3.txt");
+        String[] data;
+        data = Task03.readFile(pathReadFile);
+
+        for (int i = 0; i < data.length; i++) {
+            System.out.println(Task03.ParsingText(data[i]));
+        }
     }
 }
