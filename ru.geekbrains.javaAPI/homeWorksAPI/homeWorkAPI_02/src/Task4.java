@@ -86,4 +86,5 @@ public class Task4 {
     private static void closeFileHandler(FileHandler file){
         file.close();
     }
+
 }
