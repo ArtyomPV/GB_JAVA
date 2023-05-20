@@ -1,3 +1,4 @@
+import ocp.Rectangle;
 import ocp.RightTriangle;
 import ocp.Shape;
 import ocp.Square;
@@ -10,17 +11,11 @@ public class Main {
        List<Shape> shapes = new ArrayList<>();
        shapes.add(new RightTriangle(3, 4));
        shapes.add(new Square(4));
+       shapes.add(new Rectangle(2, 4));
 
        double sumArea = 0;
        for(Shape shape: shapes){
-           if(shape instanceof RightTriangle){
-               RightTriangle rightTriangle = (RightTriangle) shape;
-               sumArea += rightTriangle.getKatet1() * rightTriangle.getKatet2() / 2;
-           }
-           if (shape instanceof Square){
-               Square square = (Square) shape;
-               sumArea += square.getSide()*square.getSide();
-           }
+           sumArea += shape.getArea();
        }
         System.out.printf("Sum of all shapes = %s", sumArea);
     }
