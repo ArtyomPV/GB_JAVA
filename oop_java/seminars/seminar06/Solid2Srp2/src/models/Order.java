@@ -33,22 +33,6 @@ public class Order {
         return price;
     }
 
-    public void saveToJson() {
-        String fileName = "oop_java\\seminars\\seminar06\\Solid2Srp2\\src\\models\\order.json";
-        System.out.println(fileName);
-
-        try (FileWriter fileWriter = new FileWriter(fileName, false)) {
-            fileWriter.write("{\n");
-            fileWriter.write("\"clientName\":\"" + clientName + "\",\n");
-            fileWriter.write("\"product\":\"" + product + "\",\n");
-            fileWriter.write("\"quantity\":\"" + qnt + "\",\n");
-            fileWriter.write("\"price\":\"" + price + "\"\n");
-            fileWriter.write("}\n");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-            ;
-        }
-    }
     public void inputFromConsole(){
         clientName = prompt("Client name: ");
         product = prompt("Product name: ");
