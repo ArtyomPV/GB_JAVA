@@ -1,4 +1,9 @@
 package isp;
 
-public class Payable {
+public interface Payable {
+    void payWebMoney(int var1);
+
+    void payCreditCard(int var1);
+
+    void payPhoneNumber(int var1);
 }
