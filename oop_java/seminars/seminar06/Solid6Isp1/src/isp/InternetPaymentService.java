@@ -1,6 +1,11 @@
 package isp;
 
-public class InternetPaymentService implements Payable{
+import isp.interfaces.PayCreditCard;
+import isp.interfaces.PayPhoneNumber;
+import isp.interfaces.PayWebMoney;
+import isp.interfaces.Payable;
+
+public class InternetPaymentService implements Payable, PayPhoneNumber {
     public InternetPaymentService() {
     }
 

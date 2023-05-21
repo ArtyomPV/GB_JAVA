@@ -8,7 +8,7 @@ public class Main {
         internetPaymentService.payCreditCard(10);
         internetPaymentService.payWebMoney(10);
         TerminalPaymentService terminalPaymentService = new TerminalPaymentService();
-        terminalPaymentService.payPhoneNumber(15);
+//        terminalPaymentService.payPhoneNumber(15);
         terminalPaymentService.payCreditCard(15);
         terminalPaymentService.payWebMoney(15);
     }

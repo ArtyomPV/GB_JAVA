@@ -1,6 +1,9 @@
 package isp;
+import isp.interfaces.PayCreditCard;
+import isp.interfaces.PayWebMoney;
+import isp.interfaces.Payable;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-public class TerminalPaymentService implements Payable{
+public class TerminalPaymentService implements Payable {
     public TerminalPaymentService() {
     }
 
@@ -14,8 +17,5 @@ public class TerminalPaymentService implements Payable{
         System.out.printf("Pay by credit card %d\n", amount);
     }
 
-    @Override
-    public void payPhoneNumber(int amount) {
-        throw new NotImplementedException();
-    }
+
 }
