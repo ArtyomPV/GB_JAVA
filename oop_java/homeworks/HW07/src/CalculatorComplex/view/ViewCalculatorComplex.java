@@ -18,23 +18,18 @@ public class ViewCalculatorComplex {
             int primaryImagArg = promptInt("Введите мнимую часть комплексного первого числа: ");
 
             CalculableComplex calculatorComplex = calculableFactoryComplex.create(primaryTrueArg, primaryImagArg);
-
-//            Calculable calculator = calculableFactory.create(primaryArg);
             while (true) {
                 String cmd = prompt("Введите команду (*, +, =) : ");
                 if (cmd.equals("*")) {
                     int realArg = promptInt("Введите вещественную часть комплексного второго числа: ");
                     int imagArg = promptInt("Введите мнимую часть комплексного второго числа: ");
                     calculatorComplex.multi(realArg, imagArg);
-//                    calculator.multi(arg);
                     continue;
                 }
                 if (cmd.equals("+")) {
                     int realArg = promptInt("Введите вещественную часть комплексного второго числа: ");
                     int imagArg = promptInt("Введите мнимую часть комплексного второго числа: ");
                     calculatorComplex.sum(realArg, imagArg);
-//                    int arg = promptInt("Введите второй аргумент: ");
-//                    calculator.sum(arg);
                     continue;
                 }
                 if (cmd.equals("=")) {
