@@ -24,14 +24,14 @@ public class Toy implements Comparable<Toy> {
     public String toString() {
         return "Toy{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", dropFrequency=" + dropFrequency +
+                ",\t name='" + name + '\'' +
+                ",\t dropFrequency=" + dropFrequency +
                 '}';
     }
 
     public Toy(String name, int dropFrequency) {
-        this.id = Toy.indeficator;
         Toy.indeficator += 1;
+        this.id = Toy.indeficator;
         this.name = name;
         this.dropFrequency = dropFrequency;
     }
