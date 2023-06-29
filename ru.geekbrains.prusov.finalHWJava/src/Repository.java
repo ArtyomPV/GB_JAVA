@@ -1,5 +1,6 @@
+import java.io.IOException;
+
 public interface Repository {
-    void readFile();
-    void saveFile();
+    void saveFile(String text) throws IOException;
 
 }
