@@ -48,4 +48,13 @@ public class OneLinkedList {
         node.next = head;
         head = node;
     }
+
+    public Integer pop(){
+        Integer result = null;
+        if(head != null){
+            result = head.value;
+            head = head.next;
+        }
+        return result;
+    }
 }
