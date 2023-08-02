@@ -40,6 +40,12 @@ public class OneLinkedList {
             revert(head.next, head);
             temp.next = null;
         }
+    }
 
+    public void push(int value){
+        Node node = new Node();
+        node.value = value;
+        node.next = head;
+        head = node;
     }
 }
