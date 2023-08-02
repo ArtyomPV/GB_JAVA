@@ -86,4 +86,13 @@ public class TwoLinkedList {
         head = node;
     }
 
+    public Integer peek(){
+        Integer result = null;
+        if(tail != null){
+            result = tail.value;
+            tail = tail.previous;
+            tail.next = null;
+        }
+        return result;
+    }
 }
