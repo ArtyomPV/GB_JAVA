@@ -62,4 +62,20 @@ public class TwoLinkedList {
             }
         }
     }
+
+    public void revert(){
+        Node currentNode = head;
+        while(currentNode != null){
+            Node next = currentNode.next;
+            Node previous = currentNode.previous;
+            if(previous == null){
+                tail = currentNode;
+            }
+            if(next == null){
+                head = currentNode;
+            }
+            currentNode = next;
+        }
+    }
+
 }
