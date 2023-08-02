@@ -78,4 +78,12 @@ public class TwoLinkedList {
         }
     }
 
+    public void push(int value){
+        Node node = new Node();
+        node.value = value;
+        node.next = head;
+        node.previous = null;
+        head = node;
+    }
+
 }
