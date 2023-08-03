@@ -6,6 +6,18 @@ public class MyLinkedList<T> {
         public T value;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        Node node = head;
+        while(node.next != null){
+            stringBuilder.append(node.value);
+            stringBuilder.append('\n');
+            node = node.next;
+        }
+        return stringBuilder.toString();
+    }
+
     /**
      * добавление элемента в начало списка
      *
