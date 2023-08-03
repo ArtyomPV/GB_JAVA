@@ -77,5 +77,20 @@ public class MyLinkedList<T> {
             node = node.next;
         }
     }
+
+    public void removeLast(){
+        if(head == null){
+            return;
+        }
+        Node node = head;
+        while (node.next != null){
+            if(node.next.next == null){
+                node.next = null;
+                return;
+            }
+            node = node.next;
+        }
+        head = null;
+    }
 }
 
