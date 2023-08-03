@@ -12,7 +12,7 @@ public class MyLinkedList<T> {
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         Node node = head;
-        while(node.next != null){
+        while(node != null){
             stringBuilder.append(node.value);
             stringBuilder.append('\n');
             node = node.next;
