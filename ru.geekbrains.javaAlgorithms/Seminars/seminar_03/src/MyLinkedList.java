@@ -1,4 +1,4 @@
-public class myLinkedList<T> {
+public class MyLinkedList<T> {
     private Node head;
 
     class Node {
