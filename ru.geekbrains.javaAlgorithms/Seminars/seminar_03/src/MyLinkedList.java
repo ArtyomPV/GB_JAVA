@@ -69,6 +69,11 @@ public class MyLinkedList<T> {
                 }
                 nextNode = nextNode.next;
             }
+            if(minValueNode != node){
+                T buf = node.value;
+                node.value = minValueNode.value;
+                minValueNode.value = buf;
+            }
             node = node.next;
         }
     }
