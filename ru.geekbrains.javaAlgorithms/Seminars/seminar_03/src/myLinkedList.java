@@ -6,4 +6,18 @@ public class myLinkedList<T> {
         public T value;
     }
 
+    /**
+     * добавление элемента в начало списка
+     *
+     * @param value новео значение
+     */
+    public void firstNode(T value) {
+        Node node = new Node();
+        node.value = value;
+        if (head != null) {
+            node.next = head;
+        }
+        head = node;
+    }
+
 }
