@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 public class MyLinkedList<T> {
     private Node head;
 
@@ -23,7 +25,7 @@ public class MyLinkedList<T> {
      *
      * @param value новео значение
      */
-    public void firstNode(T value) {
+    public void addFirst(T value) {
         Node node = new Node();
         node.value = value;
         if (head != null) {
@@ -39,6 +41,7 @@ public class MyLinkedList<T> {
         if (head != null) {
             head = head.next;
         }
+
     }
 
     public T contains(T value) {
@@ -51,4 +54,23 @@ public class MyLinkedList<T> {
         }
         return null;
     }
+
+    /**
+     * Сортировка выбором
+     */
+    public void sort(Comparator <T> comparator){
+        Node node = head;
+        while(node.next != null){
+            Node minValueNode = node;
+            Node nextNode = node.next;
+            while(nextNode != null){
+                if(comparator.compare(minValueNode.value, nextNode.value) >0){
+                    minValueNode = nextNode;
+                }
+                nextNode = nextNode.next;
+            }
+            node = node.next;
+        }
+    }
 }
+
