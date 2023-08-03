@@ -20,4 +20,12 @@ public class myLinkedList<T> {
         head = node;
     }
 
+    /**
+     * Удаление первого элемента списка
+     */
+    public void firstRemove() {
+        if (head != null) {
+            head = head.next;
+        }
+    }
 }
