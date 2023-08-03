@@ -28,4 +28,15 @@ public class myLinkedList<T> {
             head = head.next;
         }
     }
+
+    public T contains(T value) {
+        Node node = head;
+        while (node.next != null) {
+            if (node.value.equals(value)) {
+                return node.value;
+            }
+            node = node.next;
+        }
+        return null;
+    }
 }
