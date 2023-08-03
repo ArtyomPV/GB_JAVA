@@ -10,6 +10,11 @@ public class Employee {
 
     public void setAge(int age) {this.age = age;}
 
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if(this == obj){
