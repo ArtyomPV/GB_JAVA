@@ -4,18 +4,54 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GB_JAVA.iml" filepath="$PROJECT_DIR$/.idea/GB_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/HW04/HW04.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/HW04/HW04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/HW05/HW05.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/HW05/HW05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/HW06/HW06.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/HW06/HW06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/HW07/HW07.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/HW07/HW07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/HomeWorkAlgorithms/HW_02/HW_02.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/HomeWorkAlgorithms/HW_02/HW_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/Seminars/Seminar_04/Seminar_04.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/Seminars/Seminar_04/Seminar_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid1Srp1/Solid1Srp1.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid1Srp1/Solid1Srp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid2Srp2/Solid2Srp2.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid2Srp2/Solid2Srp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid3Ocp1/Solid3Ocp1.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid3Ocp1/Solid3Ocp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid4Lsp1/Solid4Lsp1.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid4Lsp1/Solid4Lsp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid5Lsp2/Solid5Lsp2.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid5Lsp2/Solid5Lsp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid6Isp1/Solid6Isp1.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid6Isp1/Solid6Isp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/Solid7Dip/Solid7Dip.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/Solid7Dip/Solid7Dip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_01/homeWorkAPI_01.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_01/homeWorkAPI_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_02/homeWorkAPI_02.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_02/homeWorkAPI_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_03/homeWorkAPI_03.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_03/homeWorkAPI_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_04/homeWorkAPI_04.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_04/homeWorkAPI_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_05/homeWorkAPI_05.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorkAPI_05/homeWorkAPI_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorksAPI.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/homeWorksAPI/homeWorksAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/homeworks/homeworks.iml" filepath="$PROJECT_DIR$/oop_java/homeworks/homeworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture01/lecture01.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture01/lecture01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture02/lecture02.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture02/lecture02.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture03/lecture03.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture03/lecture03.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture04/lecture04.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture04/lecture04.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture05/lecture05.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture05/lecture05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lecture06/lecture06.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lecture06/lecture06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/lecturesAlgorithms/lecture_02/lecture_02.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/lecturesAlgorithms/lecture_02/lecture_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/lecturesAlgorithms/lecture_03/lecture_03.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/lecturesAlgorithms/lecture_03/lecture_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/lectures/lectures.iml" filepath="$PROJECT_DIR$/oop_java/lectures/lectures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lecturesAPI.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lecturesAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lessonAPI_02/lessonAPI_02.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lessonAPI_02/lessonAPI_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lessonAPI_03/lessonAPI_03.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/lecturesAPI/lessonAPI_03/lessonAPI_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/oop_java.iml" filepath="$PROJECT_DIR$/oop_java/oop_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/ru.geekbrains.javaAPI.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/ru.geekbrains.javaAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.prusov.finalHWJava/ru.geekbrains.prusov.finalHWJava.iml" filepath="$PROJECT_DIR$/ru.geekbrains.prusov.finalHWJava/ru.geekbrains.prusov.finalHWJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar01/seminar01.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar01/seminar01.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar02/seminar02.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar02/seminar02.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar03/seminar03.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar03/seminar03.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar04/seminar04.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar04/seminar04.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar05/seminar05.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar05/seminar05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminar06/seminar06.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminar06/seminar06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_01/seminarAPI_01.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_01/seminarAPI_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_02/seminarAPI_02.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_02/seminarAPI_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_03/seminarAPI_03.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_03/seminarAPI_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_04/seminarAPI_04.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_04/seminarAPI_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_05/seminarAPI_05.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarAPI_05/seminarAPI_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/Seminars/seminar_03/seminar_03.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAlgorithms/Seminars/seminar_03/seminar_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/oop_java/seminars/seminars.iml" filepath="$PROJECT_DIR$/oop_java/seminars/seminars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarsAPI.iml" filepath="$PROJECT_DIR$/ru.geekbrains.javaAPI/seminarsAPI/seminarsAPI.iml" />
     </modules>
   </component>
 </project>

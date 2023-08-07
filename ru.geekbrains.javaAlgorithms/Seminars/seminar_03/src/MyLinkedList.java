@@ -55,8 +55,7 @@ public class MyLinkedList<T> {
         return null;
     }
 
-    /**
-     * Сортировка выбором
+    /**     * Сортировка выбором
      */
     public void sort(Comparator <T> comparator){
         Node node = head;
