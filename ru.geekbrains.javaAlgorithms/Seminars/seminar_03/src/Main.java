@@ -17,5 +17,10 @@ public class Main {
          System.out.println(myLinkedList);
          myLinkedList.sort(new EmployeeComparator());
          System.out.println(myLinkedList);
+
+         // разворот myLinkedList
+         myLinkedList.revert();
+
+         System.out.println(myLinkedList);
     }
 }
