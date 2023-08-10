@@ -29,9 +29,9 @@ public class Program {
 //        String res5 =hashMap1.remove("+79001234862");
 
 
-//        for (HashMap.Entity e : hashMap1 ){
-//            System.out.println(e.key + " " + e.value);
-//        }
+        for (HashMap.Entity e : hashMap1 ){
+            System.out.println(e.key + " " + e.value);
+        }
 //
 //        ArrayList<Integer> arrayList = new ArrayList<>();
 //        arrayList.add(12);
@@ -42,7 +42,8 @@ public class Program {
 //        for (int e: arrayList) {
 //            System.out.println(e);
 //        }
-        System.out.println(hashMap1);
+//        System.out.println(hashMap1);
+
 
     }
 

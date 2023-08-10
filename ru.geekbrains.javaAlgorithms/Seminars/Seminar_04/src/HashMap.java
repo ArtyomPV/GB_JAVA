@@ -15,15 +15,28 @@ public class HashMap<K, V> implements Iterable<HashMap.Entity> {
     }
 
     class HashMapIterator implements Iterator<HashMap.Entity>{
-
+        int index = 0;
         @Override
         public boolean hasNext() {
-            return false;
+            return index<buckets.length;
         }
 
         @Override
         public Entity next() {
-            return null;
+            Entity entity = null;
+            while(buckets[index] == null) index++;
+            if( buckets[index].head.next!=null){
+                entity = buckets[index].head.value;
+                buckets[index].head = buckets[index].head.next;
+                return entity;
+            }
+            return buckets[index++].head.value;
+
+
+
+//            if(buckets[index].head.next != null)
+//                return buckets[index].head.value;
+//            return buckets[index++].head.value;
         }
     }
 
