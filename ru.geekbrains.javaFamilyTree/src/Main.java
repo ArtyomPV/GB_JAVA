@@ -20,5 +20,6 @@ public class Main {
         System.out.println(parents);
         System.out.println(children);
         System.out.println(siblings);
+        System.out.println(person1.getFullInfo());
     }
 }

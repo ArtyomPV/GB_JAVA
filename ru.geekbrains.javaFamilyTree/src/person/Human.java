@@ -33,4 +33,13 @@ abstract class Human {
     public int getAge() {
         return age;
     }
+
+    public String getFullInfo(){
+        StringBuilder content = new StringBuilder();
+        content.append("Person\n")
+                .append("\tFull Name:\t " + this.getFirstName() + " " + this.getLastName()+ "\n")
+                .append("\tAge:\t\t " + this.getAge() + "\n")
+                .append("\tGender:\t\t " + this.getGender() + "\n");
+        return content.toString();
+    }
 }
